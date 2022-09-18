@@ -19,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/mozilla-japan/translation-work-procedure/issues"
   },
-  "homepage": "https://github.com/mozilla-japan/translation-work-procedure#readme"
+  "homepage": "https://github.com/mozilla-japan/translation-work-procedure#readme",
+  "dependencies": {
+    "gh-pages": "^4.0.0",
+    "gitbook-cli": "^2.3.2"
+  }
 }
