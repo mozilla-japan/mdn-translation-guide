@@ -4,7 +4,7 @@
   "description": "このリポジトリは、翻訳作業の手順を Git Page 化するためのリポジトリです。",
   "main": "index.js",
   "scripts": {
-    "init": "gitbook init",
+    "g:init": "gitbook init",
     "start": "gitbook serve",
     "build": "gitbook build",
     "publish": "gh-pages -d _book -m 'Auto publish book'",
