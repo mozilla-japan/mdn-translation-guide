@@ -27,3 +27,14 @@
     ```
 - MDN の Writer's home page が表示されます🎉  
   ![local-boot](images/local-boot.png)
+
+- http://localhost:5042/ja/ に行き、翻訳したい該当ページを開いておきます
+  - 実際にはページが存在しているのに、初回アクセス時に Page not found となる場合があります
+  - その場合はブラウザでページをリロードすれば表示されます
+- 3−1で clone していた mdn/translated-content をエディタで開き、翻訳したい該当ファイルを編集します
+  - または、http://localhost:5042/ja/ の該当ページから［Open in your editor］ボタンで該当ファイルをエディタで開くことができます
+- 編集すると、http://localhost:5042/ja/ の該当ページが更新されますので、確認しながら編集を行います
+
+
+##### ※ ［Open in your editor］ボタンからエディタを開く場合、3-2 で作った .env ファイルに使用するエディタを指定しておくことができます。
+##### 例：EDITOR=code （VSCodeで開きたい場合）
