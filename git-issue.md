@@ -1,4 +1,4 @@
-# GitHub にイシューを立てる
+# 2.GitHub にイシューを立てる
 
 #### こちらにイシューを新規に立て、どこを翻訳するか宣言✋してください
 - https://github.com/mozilla-japan/translation/issues/

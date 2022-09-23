@@ -1,4 +1,4 @@
-# ローカルで編集をする
+# 3-2.ローカルで編集をする
 
 原文はこちら：[setup](https://github.com/mdn/content#setup)  
 こちらも参考に：[MDN Web Docs ドキュメント翻訳の始め方](https://github.com/mozilla-japan/translation/wiki/Get-started-with-translation-of-Mozilla-documentations)
@@ -38,3 +38,26 @@
 
 ##### ※ ［Open in your editor］ボタンからエディタを開く場合、3-2 で作った .env ファイルに使用するエディタを指定しておくことができます。
 ##### 例：EDITOR=code （VSCodeで開きたい場合）
+
+
+### 翻訳するページのファイルがなく、追加する場合
+
+1. まず、自分のブランチで作業していることを確認します。　
+1. PR作業用にトピックブランチを作成します。
+  ```
+  #  コマンドで、自分が作業しているブランチが * 付きで表示されます。
+  git branch -a                               
+  # ↓ ブランチ名は自由ですが、作成したissue番号などでもよいです。
+  git checkout -b issue-123          
+  ```
+1. 翻訳対象になるファイルを、en-US から ja にコピーします。階層内の位置を、en-US と同じにしてください。
+1. 翻訳を進めます。　※前のページと同じように、対象ファイルを編集。
+  ```
+  # 編集したファイルを、git の管理対象に加え、
+  git add files/ja/folder/you/added
+  # コミット
+  git commit
+  # github上のリポジトリに反映します。
+  git push origin issue-123
+  ```
+1. プルリクエストを作成し、MDNのリポジトリに反映を要請します。
