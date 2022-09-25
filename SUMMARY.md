@@ -16,7 +16,7 @@
       * [3-3.Pull Request を出す](pull-request.md)
       * [3-4.fork元のリポジトリと同期する](synchronize-forked-repository.md)
         * [翻訳の流れ（補足）](supplement.md)
-      * [3-5.参考リンク集](link.md)
+      * [3-5.翻訳開始! - 参考リンク集](link.2.md)
     * [4-1.ローカルプレビュー環境の構築](local-dev.md)
     * [4-2.新規翻訳の手順（index.md の作成）](new-translation-procedure-1.md)
     * [4-3.新規翻訳の手順（index.md の作成）](new-translation-procedure-2.md)
