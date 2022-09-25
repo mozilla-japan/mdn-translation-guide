@@ -1,5 +1,5 @@
 {
-  "name": "translation-work-procedure",
+  "name": "mdn-translation-guide",
   "version": "0.0.1",
   "description": "このリポジトリは、翻訳作業の手順を Git Page 化するためのリポジトリです。",
   "main": "index.js",
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mozilla-japan/translation-work-procedure.git"
+    "url": "git+https://github.com/mozilla-japan/mdn-translation-guide.git"
   },
   "keywords": [
     "mdn",
@@ -20,9 +20,9 @@
   "author": "MDN translate community",
   "license": "",
   "bugs": {
-    "url": "https://github.com/mozilla-japan/translation-work-procedure/issues"
+    "url": "https://github.com/mozilla-japan/mdn-translation-guide/issues"
   },
-  "homepage": "https://github.com/mozilla-japan/translation-work-procedure#readme",
+  "homepage": "https://github.com/mozilla-japan/mdn-translation-guide#readme",
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "honkit": "^4.0.0"
