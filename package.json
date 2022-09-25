@@ -4,9 +4,9 @@
   "description": "このリポジトリは、翻訳作業の手順を Git Page 化するためのリポジトリです。",
   "main": "index.js",
   "scripts": {
-    "init": "honkit init",
+    "init": "npx honkit init",
     "start": "npx honkit serve",
-    "build": "honkit build",
+    "build": "npx honkit build",
     "publish": "gh-pages -d _book -m 'Auto publish book'"
   },
   "repository": {
