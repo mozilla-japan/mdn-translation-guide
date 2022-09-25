@@ -3,7 +3,7 @@
 <html lang="" >
     <head>
         <meta charset="UTF-8">
-        <title>3-2.ローカルで編集をする · HonKit</title>
+        <title>3-5.翻訳開始! - 参考リンク集 · HonKit</title>
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="description" content="">
         <meta name="generator" content="HonKit 4.0.0">
@@ -56,10 +56,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
-    <link rel="next" href="pull-request.html" />
+    <link rel="next" href="local-dev.html" />
     
     
-    <link rel="prev" href="simple-edits.html" />
+    <link rel="prev" href="supplement.html" />
     
 
     </head>
@@ -247,7 +247,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.1.6.4.2" data-path="local-edits.html">
+        <li class="chapter " data-level="1.1.6.4.2" data-path="local-edits.html">
             
                 <a href="local-edits.html">
             
@@ -305,7 +305,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.1.6.4.5" data-path="link.2.html">
+        <li class="chapter active" data-level="1.1.6.4.5" data-path="link.2.html">
             
                 <a href="link.2.html">
             
@@ -402,7 +402,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >3-2.ローカルで編集をする</a>
+        <a href="." >3-5.翻訳開始! - 参考リンク集</a>
     </h1>
 </div>
 
@@ -417,63 +417,17 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="3-2ローカルで編集をする">3-2.ローカルで編集をする</h1>
-<p>原文はこちら：<a href="https://github.com/mdn/content#setup" target="_blank">setup</a><br>こちらも参考に：<a href="https://github.com/mozilla-japan/translation/wiki/Get-started-with-translation-of-Mozilla-documentations" target="_blank">MDN Web Docs ドキュメント翻訳の始め方</a></p>
-<p><a href="simple-edits.html">前ページ</a>で fork したリポジトリ を clone してローカルに置きます。</p>
+                                <h1 id="3-5翻訳開始---参考リンク集">3-5.翻訳開始! - 参考リンク集</h1>
+<h3 id="翻訳時の用語や表記の仕方、文体などに関して参照してください。">翻訳時の用語や表記の仕方、文体などに関して参照してください。</h3>
+<h3 id="【mdn-翻訳を始めよう】">【MDN 翻訳を始めよう】</h3>
 <ul>
-<li>※最新のmainブランチを取り込んでいる状態にします（<a href="simple-edits.html">前ページ</a>を参照）</li>
-<li>例：/Users/path/to/repos/mdn/content</li>
-<li>例：/Users/path/to/repos/mdn/translated-content</li>
-<li><p>ターミナルで、以下のコマンドを実施します</p>
-<pre><code>  $ cd /Users/path/to/repos/mdn/content
-
-  # 以下、yarn コマンドが使える環境である必要があります。yarn の使い方が分からなければSlackで聞いてください。
-  $ yarn install 
-
-  # .env ファイルを作成
-  # CONTENT_TRANSLATED_ROOT={translated-contentリポジトリ内のfilesディレクトリ}
-
-  # 例：/Users/path/to/repos/mdn/translated-content/files
-  $ content git:(main) cat .env
-  CONTENT_TRANSLATED_ROOT=/Users/path/to/repos/mdn/translated-content/files
-
-  # http://localhost:5042 にアクセス
-  $ yarn start
-</code></pre></li>
-<li><p>MDN の Writer&apos;s home page が表示されます🎉<br><img src="images/local-boot.png" alt="local-boot"></p>
-</li>
-<li><p><a href="http://localhost:5042/ja/" target="_blank">http://localhost:5042/ja/</a> に行き、翻訳したい該当ページを開いておきます</p>
-<ul>
-<li>実際にはページが存在しているのに、初回アクセス時に Page not found となる場合があります</li>
-<li>その場合はブラウザでページをリロードすれば表示されます</li>
+<li><a href="https://github.com/mozilla-japan/translation/wiki/Get-started-with-translation-of-Mozilla-documentations" target="_blank">MDN Web Docs ドキュメント翻訳の始め方</a></li>
+<li><a href="https://github.com/mozilla-japan/translation/wiki/Editorial-Guideline" target="_blank">表記ガイドライン</a></li>
+<li><a href="https://github.com/mozilla-japan/translation/wiki/L10N-Guideline" target="_blank">L10N ガイドライン</a></li>
+<li><a href="https://github.com/mozilla-japan/translation/wiki/Mozilla-L10N-Glossary" target="_blank">Mozilla 用語集</a></li>
+<li><a href="https://docs.google.com/spreadsheets/d/1y-hC-xMXawCgcYZwJDnvuSlAOTgMRLLyqXurpYkJbYE/edit#gid=0" target="_blank">日本語の文体</a></li>
 </ul>
-</li>
-<li>3−1で clone していた mdn/translated-content をエディタで開き、翻訳したい該当ファイルを編集します<ul>
-<li>または、<a href="http://localhost:5042/ja/" target="_blank">http://localhost:5042/ja/</a> の該当ページから［Open in your editor］ボタンで該当ファイルをエディタで開くことができます</li>
-</ul>
-</li>
-<li>編集すると、<a href="http://localhost:5042/ja/" target="_blank">http://localhost:5042/ja/</a> の該当ページが更新されますので、確認しながら編集を行います</li>
-</ul>
-<h5 id="※-［open-in-your-editor］ボタンからエディタを開く場合、3-2-で作った-env-ファイルに使用するエディタを指定しておくことができます。">※ ［Open in your editor］ボタンからエディタを開く場合、3-2 で作った .env ファイルに使用するエディタを指定しておくことができます。</h5>
-<h5 id="例：editorcode-（vscodeで開きたい場合）">例：EDITOR=code （VSCodeで開きたい場合）</h5>
-<h3 id="翻訳するページのファイルがなく、追加する場合">翻訳するページのファイルがなく、追加する場合</h3>
-<ol>
-<li>まず、自分のブランチで作業していることを確認します。　</li>
-<li>PR作業用にトピックブランチを作成します。<pre><code>#  コマンドで、自分が作業しているブランチが * 付きで表示されます。
-git branch -a                               
-# ↓ ブランチ名は自由ですが、作成したissue番号などでもよいです。
-git checkout -b issue-123
-</code></pre></li>
-<li>翻訳対象になるファイルを、en-US から ja にコピーします。階層内の位置を、en-US と同じにしてください。</li>
-<li>翻訳を進めます。　※前のページと同じように、対象ファイルを編集。<pre><code># 編集したファイルを、git の管理対象に加え、
-git add files/ja/folder/you/added
-# コミット
-git commit
-# github上のリポジトリに反映します。
-git push origin issue-123
-</code></pre></li>
-<li>プルリクエストを作成し、MDNのリポジトリに反映を要請します。</li>
-</ol>
+<p><img src="images/foxkeh.png" alt="foxkeh"></p>
 
                                 
                                 </section>
@@ -501,12 +455,12 @@ git push origin issue-123
 
             
                 
-                <a href="simple-edits.html" class="navigation navigation-prev " aria-label="Previous page: 3-1.シンプルな編集の場合">
+                <a href="supplement.html" class="navigation navigation-prev " aria-label="Previous page: 翻訳の流れ（補足）">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
                 
-                <a href="pull-request.html" class="navigation navigation-next " aria-label="Next page: 3-3.Pull Request を出す">
+                <a href="local-dev.html" class="navigation navigation-next " aria-label="Next page: 4-1.ローカルプレビュー環境の構築">
                     <i class="fa fa-angle-right"></i>
                 </a>
                 
@@ -517,7 +471,7 @@ git push origin issue-123
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"3-2.ローカルで編集をする","level":"1.1.6.4.2","depth":4,"next":{"title":"3-3.Pull Request を出す","level":"1.1.6.4.3","depth":4,"path":"pull-request.md","ref":"pull-request.md","articles":[]},"previous":{"title":"3-1.シンプルな編集の場合","level":"1.1.6.4.1","depth":4,"path":"simple-edits.md","ref":"simple-edits.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"local-edits.md","mtime":"2022-09-23T12:12:09.260Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2022-09-25T08:42:36.570Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"3-5.翻訳開始! - 参考リンク集","level":"1.1.6.4.5","depth":4,"next":{"title":"4-1.ローカルプレビュー環境の構築","level":"1.1.6.5","depth":3,"path":"local-dev.md","ref":"local-dev.md","articles":[]},"previous":{"title":"翻訳の流れ（補足）","level":"1.1.6.4.4.1","depth":5,"path":"supplement.md","ref":"supplement.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56},"embedFonts":false},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"link.2.md","mtime":"2022-09-25T08:41:51.718Z","type":"markdown"},"gitbook":{"version":"4.0.0","time":"2022-09-25T08:42:36.570Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
