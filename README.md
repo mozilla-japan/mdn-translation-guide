@@ -1,3 +1,3 @@
-![top](images/top.png)
+![top](images/top.jpg)
 
 翻訳コミュニティ月例ミートアップ 用のイベント及び翻訳手順の説明サイトです。
