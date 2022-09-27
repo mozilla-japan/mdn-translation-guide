@@ -26,5 +26,8 @@
   "devDependencies": {
     "gh-pages": "^4.0.0",
     "honkit": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=14"
   }
 }
