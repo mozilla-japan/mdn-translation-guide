@@ -10,3 +10,7 @@ book.mobi
 
 # package
 package-lock.json
+yarn.lock
+
+# others
+.DS_Store
