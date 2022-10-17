@@ -1,6 +1,6 @@
 # GitHubと参加者コミュニケーション用 Docs
 
-翻訳開始時にこちらにイシューを新規に立ててくささい  
+翻訳開始時にこちらにイシューを新規に立ててください  
 https://github.com/mozilla-japan/translation/issues/  
 ※被りがないよう既存イシューを確認してから翻訳宣言しましょう
 
