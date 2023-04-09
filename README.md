@@ -1,3 +1,5 @@
 ![top](images/top.jpg)
 
-[翻訳コミュニティ月例ミートアップ 用のイベント及び翻訳手順の説明サイトです](https://mozilla-japan.github.io/mdn-translation-guide/)。
+- https://mozilla-japan.github.io/mdn-translation-guide/
+    - ここは MDN 翻訳コミュニティ月例ミートアップ用の資料置き場です。
+    - https://github.com/mozilla-japan/mdn-translation-guide で管理されています。
