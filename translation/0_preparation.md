@@ -15,4 +15,4 @@
     - ご自身に合った方法でインストールを行ってみてください。分からなければ Slack でお気軽にご質問ください。
 - Node.js がインストールできていれば、次のページを参考に Yarn をインストールしてください。
     - https://yarnpkg.com/getting-started/install
-    - Linux 環境でのインストールで yarn が見つからない、エラーが出る等の場合には、[こちら](http://hma.cocolog-nifty.com/blog/2021/05/post-74aeb7.html)が参考になるかもしれません。
+    - Linux 環境でのインストールで yarn が見つからない、エラーが出る等の場合には、[こちら](https://hma.cocolog-nifty.com/blog/2021/05/post-74aeb7.html)が参考になるかもしれません。
