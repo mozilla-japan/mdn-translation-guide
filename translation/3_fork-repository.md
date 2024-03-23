@@ -2,17 +2,18 @@
 
 ## 初めてリポジトリを fork する場合 {#first}
 
-- https://github.com/mdn/content リポジトリを fork します。
 - https://github.com/mdn/translated-content リポジトリを fork します。
+- https://github.com/mdn/content リポジトリを fork します。
 - 以上で完了です。
 
 ## 既にリポジトリを fork している場合 {#already}
 
-- fork したリポジトリ https://github.com/YOUR_NAME/content のページへアクセスします。
+- fork したリポジトリ https://github.com/YOUR_NAME/translated-content のページへアクセスします。
 - 画面上部にある「Sync fork」を押して「Update branch」を実行します。
-- "This branch is up to date with mdn/content:main." と表示されたことを確認します。
+- "This branch is up to date with mdn/translated-content:main." と表示されたことを確認します。
     - ここが異なる表示結果になった場合、リポジトリに不整合が生じている可能性があります。その場合は以下の Git コマンドを参考に問題を解決するか Slack で相談してください。
-- https://github.com/YOUR_NAME/translated-content のページでも同様のことを行います。
+- https://github.com/YOUR_NAME/content のページでも同様のことを行います。
+    - 古い原文から翻訳してしまうリスクを避けるため、content リポジトリでも「Sync fork」するのを推奨します。
 
 ### 補足：Git コマンドで Sync fork する方法 {#command}
 
@@ -48,4 +49,11 @@ upstream	git@github.com:mdn/translated-content.git (push)
 
 // ローカルブランチの状態を GitHub に反映させる
 [translated-content] $ git push origin main
+
+// content のリポジトリでも同様のことを行います。
+// 古い原文から翻訳してしまうリスクを避けるため、content リポジトリでも「Sync fork」するのを推奨します。
+[translated-content] $ cd ~/path/to/mdn_repos/
+[mdn_repos] $ git clone git@github.com:YOUR_NAME/content.git
+[mdn_repos] $ cd ~/path/to/mdn_repos/content
+// ... 以下略 ...
 ```
