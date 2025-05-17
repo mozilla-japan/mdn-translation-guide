@@ -17,7 +17,7 @@
   - https://yarnpkg.com/getting-started/install
 - **Yarn についての注意事項**
 
-  - 動作保証のバージョンは、**`v1.22.22`** です。
+  - 動作保証のバージョンは、**`v1.x`** です。
   - yarn v2.x 以上の場合は、content/package.json の script の変更が必要です。
   - content/package.json の script の変更は、**`絶対にプッシュしない`** で下さい
 
