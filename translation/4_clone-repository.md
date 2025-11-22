@@ -1,4 +1,5 @@
 # 4. fork リポジトリを clone する
+  ## （2025年12月1日(UTC)に、[yarn から npm への移行](https://github.com/mdn/content/pull/42048)が予定されています）
 
 ## 初めてリポジトリを clone する場合 {#first}
 
