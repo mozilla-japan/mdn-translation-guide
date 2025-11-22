@@ -29,7 +29,7 @@
 [~] $ cd ~/path/to/mdn_repos/content
 
 // ローカルプレビューを起動する
-[content] $ yarn start
+[content] $ yarn start  # （2025年12月1日(UTC)に、[yarn から npm への移行](https://github.com/mdn/content/pull/42048)が予定されています）
 ```
 
 - ブラウザから http://localhost:5042/ja/docs/Glossary/Entity を開きます。
