@@ -1,5 +1,6 @@
 # yari リポジトリでの環境構築
 
+  ## （2025年12月1日(UTC)に、[yarn から npm への移行](https://github.com/mdn/content/pull/42048)が予定されています）
 - ローカルプレビューを行うのに content リポジトリでの `yarn start` を使う以外に、yari リポジトリでの `yarn dev` を使う方法があります。
 - yari リポジトリでローカルプレビューを行うことで、最新の yari リポジトリの状態を反映できます。
     - 例えば MDN Web Docs のデザインが変更された際や、BCD（Browser Compat Data; ブラウザーの互換性）テーブルの構造が変更された場合などに、最新の状態を反映することができます。
