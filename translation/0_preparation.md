@@ -8,19 +8,19 @@
 - 既に GitHub アカウントをお持ちの方はサインインして作業ができます。
 
 ## Node.js / Yarn のインストール {#yarn}
- ### （2025年12月1日(UTC)に、[yarn から npm への移行](https://github.com/mdn/content/pull/42048)が予定されています）
+ ### （2025年12月1日(UTC)に、[yarn から npm へ移行](https://github.com/mdn/content/pull/42048)しました）
 
-- 手元のブラウザで翻訳作業中の内容をローカルプレビューするために、Yarn が実行できる環境が必要になります。
+- 手元のブラウザで翻訳作業中の内容をローカルプレビューするために、npm が実行できる環境が必要になります。
 - まずは Node.js がインストールされている必要があります。
   - Node.js のインストールは nodenv を使うなど様々な方法があります。
   - ご自身に合った方法でインストールを行ってみてください。分からなければ Slack でお気軽にご質問ください。
-- Node.js がインストールできていれば、次のページを参考に Yarn をインストールしてください。
+- Yarn のインストールは、（Yari との動作確認など特殊な場合を除けば）必要ありません。必要な場合は次のページを参考にしてください。
   - https://yarnpkg.com/getting-started/install
-- **Yarn についての注意事項**
+  - **Yarn についての注意事項**
 
-  - 動作保証のバージョンは、**`v1.x`** です。
-  - yarn v2.x 以上の場合は、content/package.json の script の変更が必要です。
-  - content/package.json の script の変更は、**`絶対にプッシュしない`** で下さい
+    - 動作保証のバージョンは、**`v1.x`** です。
+    - yarn v2.x 以上の場合は、content/package.json の script の変更が必要です。
+    - content/package.json の script の変更は、**`絶対にプッシュしない`** で下さい
 
     ```diff
     - "start": "yarn -s info:rari && yarn up-to-date-check && env-cmd --silent cross-env CONTENT_ROOT=files REACT_APP_DISABLE_AUTH=true BUILD_OUT_ROOT=build rari-server",
