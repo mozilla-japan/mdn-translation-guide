@@ -1,5 +1,5 @@
 # 4. fork リポジトリを clone する
-  ## （2025年12月1日(UTC)に、[yarn から npm への移行](https://github.com/mdn/content/pull/42048)が予定されています）
+  ## （2025年12月1日(UTC)に、[yarn から npm へ移行](https://github.com/mdn/content/pull/42048)しました）
 
 ## 初めてリポジトリを clone する場合 {#first}
 
@@ -22,8 +22,8 @@ content    translated-content
 [content] $ cat .env
 CONTENT_TRANSLATED_ROOT=../translated-content/files
 
-// ローカルプレビューができるように yarn install しておく
-[content] $ yarn install
+// ローカルプレビューができるように npm install しておく
+[content] $ npm install
 ```
 
 ## 既にリポジトリを clone している場合 {#already}
@@ -37,8 +37,8 @@ CONTENT_TRANSLATED_ROOT=../translated-content/files
 [content] $ git checkout main
 [content] $ git pull
 
-// content リポジトリでは yarn install し直しておく
-[content] $ yarn install
+// content リポジトリでは npm install し直しておく
+[content] $ npm install
 
 // translated-content リポジトリも pull しておく
 [content] $ cd ../translated-content
