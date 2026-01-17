@@ -71,7 +71,8 @@ l10n:
   sourceCommit: 1cfa0cd49bb572480f014af3b15dee3bda974178
 ---
 ```
-
+- なお、`title: ` 行、`slug: ` 行のように項目名と内容を同じ行に書く場合、 `:` の後の空白は必須です (YAML 文法)。
+ 
 - `sourceCommit` のハッシュ値は、編集作業時点の content リポジトリの当該記事ページのファイル（英語版）の最新コミットハッシュ値（`git log` で確認できる。上の Entity の場合は、 `git log ~/path/to/mdn_repos/content/files/en-us/glossary/entity/index.md` ）を記述します。
     - これにより、日本語版が英語版のいつのバージョンに追従しているかを把握することができるようになります。
     - つまり、これを記述する場合は、日本語版の記事の内容を英語版の最新の内容と同期させる必要があります。
