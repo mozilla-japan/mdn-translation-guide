@@ -46,6 +46,7 @@
 - MDN では、翻訳ファイル側の Front-matter を特定のフォーマットにする必要があります。
     - そのフォーマットは英語版と異なります。そのため、作業者が編集する必要があります。
     - これは「[ja - フロントマターから不要なメタデータを削除](https://github.com/mdn/translated-content/issues/7858)」による要請です。
+    - より詳しくは、[MDN に説明があります](https://github.com/mdn/translated-content/blob/main/docs/README.md#do-not-copy-all-front-matter-properties-from-english-pages)。
 - 英語版が次のようになっていたとします。
 
 ```yaml
@@ -59,7 +60,7 @@ tags:
 ---
 ```
 
-- 日本語版では、`title` と `slug` 以外を削除し、`l10n` を追加します。
+- 日本語版では、`title` と `slug` と `short-title` 以外を削除し、`l10n` を追加します。
     - `tags`, `translation_of`, `browser-compat`, `spec-urls` などは全て削除してください。
     - `l10n` は「エル 10 エヌ」です。アイではありません。
 
